@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.17)  20 NOV 2019 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.17)  20 NOV 2019 18:38
 entering extended mode
 **./bd.tex
 (bd.tex
@@ -977,47 +977,61 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] (bd.toc) [2
 
-] [3
+]
+<pictures/bdtrend.png, id=126, 868.74562pt x 462.22687pt>
+File: pictures/bdtrend.png Graphic file (type png)
+<use pictures/bdtrend.png>
+Package pdftex.def Info: pictures/bdtrend.png  used on input line 33.
+(pdftex.def)             Requested size: 260.62569pt x 138.66913pt.
+ [3
+
+ <./pictures/bdtrend.png>] [4
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 ("C:\Users\aser1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 ("C:\Users\aser1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 66.
+ut line 72.
 
 ("C:\Users\aser1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1
 mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Underfull \hbox (badness 10000) in alignment at lines 66--66
+Underfull \hbox (badness 10000) in alignment at lines 72--72
 [][]
  []
 
-[4
-
-] [5
-
-] [6
-
-]
-<pictures/bigdatapng1.png, id=190, 722.7pt x 547.2947pt>
+<pictures/bigdatapng1.png, id=160, 722.7pt x 547.2947pt>
 File: pictures/bigdatapng1.png Graphic file (type png)
 <use pictures/bigdatapng1.png>
-Package pdftex.def Info: pictures/bigdatapng1.png  used on input line 103.
+Package pdftex.def Info: pictures/bigdatapng1.png  used on input line 72.
 (pdftex.def)             Requested size: 252.94878pt x 191.556pt.
- [7
 
- <./pictures/bigdatapng1.png>] [8
+Overfull \vbox (109.09132pt too high) detected at line 72
+ []
+
+[5
+
+ <./pictures/bigdatapng1.png>] [6
+
+] [7
+
+]
+File: pictures/bigdatapng1.png Graphic file (type png)
+<use pictures/bigdatapng1.png>
+Package pdftex.def Info: pictures/bigdatapng1.png  used on input line 109.
+(pdftex.def)             Requested size: 252.94878pt x 191.556pt.
+ [8
 
 ] [9
 
@@ -1025,46 +1039,48 @@ Package pdftex.def Info: pictures/bigdatapng1.png  used on input line 103.
 
 ] [11
 
+] [12
+
 ]
-<pictures/img2.png, id=277, 308.15125pt x 277.035pt>
+<pictures/img2.png, id=295, 308.15125pt x 277.035pt>
 File: pictures/img2.png Graphic file (type png)
 <use pictures/img2.png>
-Package pdftex.def Info: pictures/img2.png  used on input line 150.
+Package pdftex.def Info: pictures/img2.png  used on input line 156.
 (pdftex.def)             Requested size: 215.70439pt x 193.92317pt.
- [12
+ [13
 
- <./pictures/img2.png>] [13
+ <./pictures/img2.png>] [14
 
 ]
-<pictures/img1.png, id=313, 902.37125pt x 418.56375pt>
+<pictures/img1.png, id=331, 902.37125pt x 418.56375pt>
 File: pictures/img1.png Graphic file (type png)
 <use pictures/img1.png>
-Package pdftex.def Info: pictures/img1.png  used on input line 163.
+Package pdftex.def Info: pictures/img1.png  used on input line 169.
 (pdftex.def)             Requested size: 315.83467pt x 146.4995pt.
 
-Overfull \hbox (25.09204pt too wide) in paragraph at lines 163--163
+Overfull \hbox (25.09204pt too wide) in paragraph at lines 169--169
  [] 
  []
 
-[14
+[15
 
  <./pictures/img1.png>]
-<pictures/img3.jpg, id=331, 356.0803pt x 190.46156pt>
+<pictures/img3.jpg, id=349, 356.0803pt x 190.46156pt>
 File: pictures/img3.jpg Graphic file (type jpg)
 <use pictures/img3.jpg>
-Package pdftex.def Info: pictures/img3.jpg  used on input line 177.
+Package pdftex.def Info: pictures/img3.jpg  used on input line 183.
 (pdftex.def)             Requested size: 178.03972pt x 95.23053pt.
- [15
-
- <./pictures/img3.jpg>]
-<pictures/img4.jpg, id=348, 803.0pt x 451.6875pt>
-File: pictures/img4.jpg Graphic file (type jpg)
-<use pictures/img4.jpg>
-Package pdftex.def Info: pictures/img4.jpg  used on input line 185.
-(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
  [16
 
- <./pictures/img4.jpg>] [17
+ <./pictures/img3.jpg>]
+<pictures/img4.jpg, id=366, 803.0pt x 451.6875pt>
+File: pictures/img4.jpg Graphic file (type jpg)
+<use pictures/img4.jpg>
+Package pdftex.def Info: pictures/img4.jpg  used on input line 191.
+(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
+ [17
+
+ <./pictures/img4.jpg>] [18
 
 ]
 \tf@nav=\write6
@@ -1076,19 +1092,19 @@ Package pdftex.def Info: pictures/img4.jpg  used on input line 185.
 \tf@snm=\write8
 \openout8 = `bd.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (bd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `bd.out' has not changed.
-(rerunfilecheck)             Checksum: DE222E97E59A8E22D8C43F5FB9F92BC6;622.
+(rerunfilecheck)             Checksum: 91CC9446952A652CC4BBCE14FCBCD472;622.
  ) 
 Here is how much of TeX's memory you used:
- 18006 strings out of 492450
- 349837 string characters out of 3120004
+ 18019 strings out of 492450
+ 350038 string characters out of 3120004
  415763 words of memory out of 3000000
- 21879 multiletter control sequences out of 15000+200000
+ 21890 multiletter control sequences out of 15000+200000
  9552 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,65p,790b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1097,9 +1113,9 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmss12.pfb><C:/Users/aser1/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/aser1/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on bd.pdf (17 pages, 450001 bytes).
+Output written on bd.pdf (18 pages, 475492 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
