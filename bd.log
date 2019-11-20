@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.17)  20 NOV 2019 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.17)  20 NOV 2019 09:58
 entering extended mode
 **./bd.tex
 (bd.tex
@@ -1049,11 +1049,11 @@ Overfull \hbox (25.09204pt too wide) in paragraph at lines 163--163
 [14
 
  <./pictures/img1.png>]
-<pictures/img3.jpg, id=331, 803.0pt x 431.6125pt>
+<pictures/img3.jpg, id=331, 356.0803pt x 190.46156pt>
 File: pictures/img3.jpg Graphic file (type jpg)
 <use pictures/img3.jpg>
 Package pdftex.def Info: pictures/img3.jpg  used on input line 177.
-(pdftex.def)             Requested size: 281.05421pt x 151.06664pt.
+(pdftex.def)             Requested size: 178.03972pt x 95.23053pt.
  [15
 
  <./pictures/img3.jpg>]
@@ -1097,7 +1097,7 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmss12.pfb><C:/Users/aser1/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/aser1/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on bd.pdf (17 pages, 433245 bytes).
+Output written on bd.pdf (17 pages, 450001 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
