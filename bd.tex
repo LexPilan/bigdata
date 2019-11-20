@@ -26,17 +26,19 @@
 \tableofcontents
 \end{frame}
 
+
 \begin{frame}{Definition}
 \section{Definition}
-
-Big Data bezeichnet Datenmengen, die zu groß, zu komplex, zu schnelllebig oder zu schwach strukturiert sind, dass man sie mit normalen Soft- bzw. Hardware oder herkömmlichen Methoden zur Datenverarbeitung nichtmehr bewältigen kann.
-
+\begin{itemize}
+\item Volume (Datenvolumen)
+\item Velocity (Geschwindigkeit der Datenverarbeitung und Veränderungsdynamik)
+\item Variety (Vielfalt der Datenstrukturen und -klassen)
+\item Veracity (Echtheit der Daten)
+\item Value (unternehmerischer Mehrwert)
+\item Validity (Datenqualität)
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Definition}
-Die Formulierung Big Data bezieht sich jedoch nicht ausschließlich auf die Größenordnung der Datensätze, sondern wird oft auch synonym verwendet für die Speicherung, Verarbeitung und Analyse dieser Daten unterschiedlichster Herkunft und Formate zur Informationsgewinnung unter Zuhilfenahme neuer Technologien, Praktiken und Anwendungen.
-
-\end{frame}
 
 \begin{frame}{Anwendung}
 \subsection{Anwendung}
@@ -85,25 +87,12 @@ Traditionelle Analytik & Big Data Analytik \\ \hline
 Schrittweise Analyse der kleinen Datenmengen & Bearbeitung der ganzen Datenmenge \\ \hline
 Abfassung und Sortierung bevor Bearbeitung & Daten werden unverändert bearbeitet \\ \hline
 Daten werden angesammelt, bearbeitet, gespeichert und erst dann analysiert & Analyse und Bearbeitung werden je nach Einlauf durchgeführt 
-
 \end{tabular}
 \end{table}
 \end{frame}
 
-\begin{frame}{Prinzipe}
-\subsection{Prinzipe}
-\begin{itemize}
-\item Volume (Datenvolumen)
-\item Velocity (Geschwindigkeit der Datenverarbeitung und Veränderungsdynamik)
-\item Variety (Vielfalt der Datenstrukturen und -klassen)
-\item Veracity (Echtheit der Daten)
-\item Value (unternehmerischer Mehrwert)
-\item Validity (Datenqualität)
-\end{itemize}
-\end{frame}
 
-
-\begin{frame}{Entwicklungen}
+\begin{frame}  {Entwicklungen}
 \section{Entwicklungen}
 Klassische relationale Datenbanksysteme sowie Statistik- und Visualisierungsprogramme sind oft nicht in der Lage, derart große Datenmengen zu verarbeiten. Für Big Data kommen daher neue Arten von Datenspeicher- und Analyse-Systemen zum Einsatz, die parallel auf bis zu Hunderten oder Tausenden von Prozessoren bzw. Servern arbeiten. Dabei gibt es u. a. folgende Herausforderungen:
 \end{frame}
@@ -143,26 +132,52 @@ Klassische relationale Datenbanksysteme sowie Statistik- und Visualisierungsprog
 \end{itemize}
 \end{frame}
 
+\begin{frame}{NoSQL}
+\begin{figure}
+		\center{\includegraphics[scale=0.7]{img2}}
+\end{figure}
+\end{frame}
+
 \begin{frame}{JSON}
 \subsection{JSON}
  ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen.
-\newpage 
 
 \end{frame}
 
 \begin{frame}{Map Reduce}
 \subsection{Map Reduce}
-Die Idee hinter MapReduce ist, eine riesige Datenmenge auf viele Server in einem Cluster aufzuteilen. Da diese einzelnen Rechner nicht nur über eigenen Speicher für die Datenhaltung, sondern auch einen Prozessor für die Datenverarbeitung verfügen, ist es möglich, jeden Rechner parallel Aufgaben auf seinem Teil der Daten ausführen zu lassen, anstatt alles auf einer einzigen Maschine zentralisiert zu berechnen. 
-\end{frame}
-
-\begin{frame}{Map Reduce}
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{img1}}
 \end{figure}
 \end{frame}
 
-\begin{frame}{MangoDB}
-\subsection{MangoDB}
+\begin{frame}{Hadoop}
+\subsection{Hadoop}
+\begin{center}
+\begin{figure}
+		\center{\includegraphics[scale=0.35]{img3}}
+\end{figure}
+\end{center}
+\begin{itemize}
+	\item HDFS (Hadoop Distributed File System)
+	\item YARN
+	\item Map Reduce
+\end{itemize}
 \end{frame}
+
+\begin{frame}{HDFS}
+\begin{center}
+\begin{figure}
+		\center{\includegraphics[scale=0.35]{img4}}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{Spark}
+\subsection{Spark}
+
+
+\end{frame}
+
 
 \end{document}
