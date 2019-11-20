@@ -1,0 +1,23 @@
+\frametitle{R}
+\subsection{R}
+Paradigmen:
+\begin{itemize}
+	\item funktional
+	\item dynamisch
+	\item objektorientiert
+\end{itemize}
+
+%\begin{quotation}
+%Everything that exists is an object. Everything that happens is a function call
+%\end{quotation}
+
+\begin{lstlisting}
+Gewicht <- c(60, 72, 57, 90, 95, 72)
+Groesse <- c(1.75, 1.80, 1.65, 1.90, 1.74, 1.91)
+BMI <- Gewicht/ Groesse^2
+sum(Gewicht)
+length(Gewicht)
+sum(Gewicht)/length(Gewicht)
+table(Gewicht)
+\end{lstlisting}
+
