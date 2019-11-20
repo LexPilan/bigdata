@@ -11,7 +11,6 @@
   belowcaptionskip=1\baselineskip,
   frame=L,
   xleftmargin=\parindent,
-  language=[x86masm]Assembler,
   basicstyle=\footnotesize\ttfamily,
   commentstyle=\itshape\color{purple!40!black},
 }
@@ -135,12 +134,21 @@ Traditionelle Analytik & Big Data Analytik \\
 	\end{figure}
 \end{frame}
 
+\begin{frame}{Analysemethoden}
+\section{Analysemethoden}
+\begin{itemize}
+\item Repräsentative Stichprobe
+\item Kopplungsanalyse
+\item Predictive Analytics
+\item Data Mining
+\end{itemize}
+\end{frame}
 
 \begin{frame}{Entwicklungen}
 \section{Entwicklungen}
 	\begin{itemize}
-	\item NOSQL
-	\item JSON
+	\item NOSQL (Not Only SQL)
+	\item JSON 
 	\item Map Reduce
 	\item Hadoop
 	\item Spark
@@ -148,13 +156,6 @@ Traditionelle Analytik & Big Data Analytik \\
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Analysemethoden}
-\begin{itemize}
-\item Kopplungsanalyse
-\item Predictive Analytics
-\item Data Mining
-\end{itemize}
-\end{frame}
 
 %\begin{frame}{Kopplungsanalyse}
 %\begin{figure}
@@ -207,6 +208,31 @@ Traditionelle Analytik & Big Data Analytik \\
 \begin{frame}[fragile]
 \frametitle{JavaScript Object Notation}
 \subsection{JSON}
+JSON ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck des Datenaustauschs zwischen Anwendungen.
+
+
+\lstset{
+	showtabs=false,
+	basicstyle=\footnotesize\ttfamily\color{black}
+}
+\begin{lstlisting}
+{
+  "Herausgeber": "Xema",
+  "Nummer": "1234-5678-9012-3456",
+  "Deckung": 2e+6,
+  "Waehrung": "EURO",
+  "Inhaber":
+  {
+    "Name": "Mustermann",
+    "Vorname": "Max",
+    "maennlich": true,
+    "Hobbys": ["Reiten", "Golfen", "Lesen"],
+    "Alter": 42,
+    "Kinder": [],
+    "Partner": null
+  }
+}
+\end{lstlisting}
 
 \end{frame}
 
@@ -215,6 +241,32 @@ Traditionelle Analytik & Big Data Analytik \\
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{img1}}
 \end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Map Reduce}
+\lstset{
+	basicstyle=\footnotesize,
+	numbers=left,
+	numbersep=5pt,
+	showtabs=false,
+	title=Wortzahl,
+	style=customc
+}
+
+\begin{lstlisting}
+function map(String name, String documentPart):
+	for each word w in documentPart:
+		emit (w, 1)
+ 
+function reduce(String word, List<Int> partialCounts):
+	sum = 0
+	for each pc in partialCounts:
+		sum += pc
+		emit (word, sum)
+		
+\end{lstlisting}
+
 \end{frame}
 
 \begin{frame}{Hadoop}
