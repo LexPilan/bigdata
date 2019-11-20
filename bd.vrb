@@ -11,6 +11,15 @@ Paradigmen:
 %Everything that exists is an object. Everything that happens is a function call
 %\end{quotation}
 
+\lstset{
+	language=R,
+	basicstyle=\footnotesize,
+	numbers=left,
+	numbersep=5pt,
+	showtabs=false,
+	title=R Beispiel Code,
+	style=customc
+}
 \begin{lstlisting}
 Gewicht <- c(60, 72, 57, 90, 95, 72)
 Groesse <- c(1.75, 1.80, 1.65, 1.90, 1.74, 1.91)
