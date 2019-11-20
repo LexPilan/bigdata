@@ -13,8 +13,8 @@
 \setbeamercovered{transparent} 
 \setbeamertemplate{navigation symbols}{} 
 %\logo{} 
-%\institute{} 
-%\date{} 
+\institute{Paris Lodron Universität Salzburg} 
+\date{22. November, 2019} 
 %\subject{} 
 \begin{document}
 
@@ -39,6 +39,31 @@
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Unterschied}
+\subsection{Unterschied}
+\setlength\tabcolsep{0pt}
+\setlength\thickmuskip{0mu}
+\setlength\medmuskip{0mu}
+\small
+\centering
+\begin{tabular*}{\textwidth}{ p{145pt} p{145pt}} 
+Traditionelle Analytik & Big Data Analytik \\ 
+\begin{itemize}
+\item Schrittweise Analyse der kleinen Datenmengen
+\item Abfassung und Sortierung bevor Bearbeitung
+\item Daten werden angesammelt, bearbeitet, gespeichert und erst dann analysiert 
+\end{itemize}
+
+&
+\begin{itemize}
+\item Bearbeitung der ganzen Datenmenge 
+\item Daten werden unverändert bearbeitet
+\item Analyse und Bearbeitung werden je nach Einlauf durchgeführt 
+\end{itemize}
+
+\end{tabular*} 
+
+\end{frame}
 
 \begin{frame}{Anwendung}
 \subsection{Anwendung}
@@ -52,7 +77,6 @@
 		\item Kriminalistik
 		\item Medizin
 	\end{enumerate}
-
 \end{frame}
 
 
@@ -78,21 +102,8 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Unterschied}
-\subsection{Unterschied}
-\begin{table}
-\begin{tabular}{|l|l|}
 
-Traditionelle Analytik & Big Data Analytik \\ \hline
-Schrittweise Analyse der kleinen Datenmengen & Bearbeitung der ganzen Datenmenge \\ \hline
-Abfassung und Sortierung bevor Bearbeitung & Daten werden unverändert bearbeitet \\ \hline
-Daten werden angesammelt, bearbeitet, gespeichert und erst dann analysiert & Analyse und Bearbeitung werden je nach Einlauf durchgeführt 
-\end{tabular}
-\end{table}
-\end{frame}
-
-
-\begin{frame}  {Entwicklungen}
+\begin{frame}{Entwicklungen}
 \section{Entwicklungen}
 Klassische relationale Datenbanksysteme sowie Statistik- und Visualisierungsprogramme sind oft nicht in der Lage, derart große Datenmengen zu verarbeiten. Für Big Data kommen daher neue Arten von Datenspeicher- und Analyse-Systemen zum Einsatz, die parallel auf bis zu Hunderten oder Tausenden von Prozessoren bzw. Servern arbeiten. Dabei gibt es u. a. folgende Herausforderungen:
 \end{frame}
@@ -160,7 +171,7 @@ Klassische relationale Datenbanksysteme sowie Statistik- und Visualisierungsprog
 \end{center}
 \begin{itemize}
 	\item HDFS (Hadoop Distributed File System)
-	\item YARN
+	\item YARN (Yet Another Resource Negotiator)
 	\item Map Reduce
 \end{itemize}
 \end{frame}
