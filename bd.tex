@@ -1,11 +1,16 @@
 \documentclass[11pt]{beamer}
-\usetheme{PaloAlto}
+%\usetheme{PaloAlto}
+\usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{listings}
 \usepackage{color}
+
+
+\usepackage[font=scriptsize]{caption}
+\usepackage{mwe}
 
 \lstdefinestyle{customasm}{
   belowcaptionskip=1\baselineskip,
@@ -54,8 +59,10 @@
 \end{frame}
 
 \begin{frame}
-\begin{figure}
+\begin{figure}[h]
 		\center{\includegraphics[scale=0.3]{bdtrend}}
+		\caption{https://trends.google.com/trends/}
+		\label{ris:image}
 	\end{figure}
 \end{frame}
 
@@ -65,14 +72,20 @@
 
 \begin{frame}{Definition}
 \subsection{Definition}
-\begin{itemize}
-\item Volume (Datenvolumen)
-\item Velocity (Geschwindigkeit der Datenverarbeitung und Veränderungsdynamik)
-\item Variety (Vielfalt der Datenstrukturen und -klassen)
-\item Veracity (Echtheit der Daten)
-\item Value (unternehmerischer Mehrwert)
-\item Validity (Datenqualität)
-\end{itemize}
+
+
+	\begin{itemize}
+	\item Volume (Datenvolumen)
+	\item Velocity (Geschwindigkeit der Datenverarbeitung und Veränderungsdynamik)
+	\item Variety (Vielfalt der Datenstrukturen und -klassen)
+	\item Veracity (Echtheit der Daten)
+	\item Value (unternehmerischer Mehrwert)
+	\item Validity (Datenqualität)
+	\end{itemize}
+
+
+
+
 \end{frame}
 
 \begin{frame}{Unterschied}
@@ -117,7 +130,8 @@ Traditionelle Analytik & Big Data Analytik \\
 \begin{frame}{Wachstum von Daten}
 \subsection{Wachstum von Daten}
 	\begin{figure}
-		\center{\includegraphics[scale=0.35]{bigdatapng1}}
+		\center{\includegraphics[scale=0.31]{bigdatapng1}}
+		\caption{https://bigdatablog.actgruppe.de/2017/04/06/die-geschaeftliche-herausforderung-von-big-data/}
 	\end{figure}
 \end{frame}
 
@@ -159,11 +173,11 @@ Traditionelle Analytik & Big Data Analytik \\
 \end{frame}
 
 
-%\begin{frame}{Kopplungsanalyse}
-%\begin{figure}
-%		\center{\includegraphics[scale=0.5]{img5}}
-%	\end{figure}
-%\end{frame}
+\begin{frame}{Kopplungsanalyse}
+\begin{figure}
+		\center{\includegraphics[scale=0.5]{img5}}
+	\end{figure}
+\end{frame}
 
 %
 %\begin{frame}{Schwerpunkte}
@@ -204,7 +218,8 @@ Traditionelle Analytik & Big Data Analytik \\
 
 \begin{frame}{NoSQL}
 \begin{figure}
-		\center{\includegraphics[scale=0.7]{img2}}
+		\center{\includegraphics[scale=0.5]{img2}}
+		\caption{https://www.slideshare.net/timjuravich/mysql-nosql-from-a-php-perspective}
 \end{figure}
 \end{frame}
 
@@ -224,8 +239,7 @@ JSON ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck 
   "Nummer": "1234-5678-9012-3456",
   "Deckung": 2e+6,
   "Waehrung": "EURO",
-  "Inhaber":
-  {
+  "Inhaber": {
     "Name": "Mustermann",
     "Vorname": "Max",
     "maennlich": true,
@@ -233,8 +247,7 @@ JSON ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck 
     "Alter": 42,
     "Kinder": [],
     "Partner": null
-  }
-}
+  }}
 \end{lstlisting}
 
 \end{frame}
@@ -243,6 +256,7 @@ JSON ist ein kompaktes Datenformat in einer einfach lesbaren Textform zum Zweck 
 \subsection{Map Reduce}
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{img1}}
+		\caption{http://beyondthegeek.com/2016/07/13/mapper-reducer/}
 \end{figure}
 \end{frame}
 
@@ -287,11 +301,10 @@ function reduce(String word, List<Int> partialCounts):
 \end{frame}
 
 \begin{frame}{HDFS}
-\begin{center}
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{img4}}
+		%\caption{https://hadoop.apache.org/hdfs_design.html}
 \end{figure}
-\end{center}
 \end{frame}
 
 %\begin{frame}{Spark}
@@ -349,11 +362,13 @@ table(Gewicht)
 \frametitle{Spark}
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{spark}}
+		\caption{http://archive.ibmsystemsmag.com/mainframe/business-strategy/bi-and-analytics/dynamic-spark/}
 \end{figure}
 \end{frame}
 
 \begin{frame}
 \frametitle{Zusammenfassung}
+\center Schöne neue Welt?
 \begin{figure}
 		\center{\includegraphics[scale=0.35]{cloud}}
 \end{figure}

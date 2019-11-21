@@ -1,12 +1,14 @@
-\beamer@sectionintoc {1}{Definition}{4}{0}{1}
-\beamer@subsectionintoc {1}{1}{Unterschied}{5}{0}{1}
-\beamer@subsectionintoc {1}{2}{Anwendung}{6}{0}{1}
+\beamer@sectionintoc {1}{Allgemein}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Definition}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Unterschied}{6}{0}{1}
 \beamer@subsectionintoc {1}{3}{Datenherkunft}{7}{0}{1}
 \beamer@subsectionintoc {1}{4}{Wachstum von Daten}{8}{0}{1}
-\beamer@sectionintoc {2}{Analysemethoden}{9}{0}{2}
-\beamer@sectionintoc {3}{Entwicklungen}{10}{0}{3}
-\beamer@subsectionintoc {3}{1}{NoSQL}{11}{0}{3}
-\beamer@subsectionintoc {3}{2}{JSON}{14}{0}{3}
-\beamer@subsectionintoc {3}{3}{Map Reduce}{15}{0}{3}
-\beamer@subsectionintoc {3}{4}{Hadoop}{17}{0}{3}
-\beamer@subsectionintoc {3}{5}{R}{19}{0}{3}
+\beamer@subsectionintoc {1}{5}{Anwendung}{9}{0}{1}
+\beamer@sectionintoc {2}{Analysemethoden}{10}{0}{2}
+\beamer@sectionintoc {3}{Entwicklungen}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{NoSQL}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{JSON}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Map Reduce}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{Hadoop}{19}{0}{3}
+\beamer@subsectionintoc {3}{5}{R}{21}{0}{3}
+\beamer@subsectionintoc {3}{6}{Spark}{22}{0}{3}
